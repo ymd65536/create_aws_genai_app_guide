@@ -1,3 +1,5 @@
+# memo: 書籍ではjsonがインポートされていますが、使用していないため削除しました
+
 from __future__ import annotations
 from typing import TYPE_CHECKING
 
@@ -8,6 +10,7 @@ import boto3
 if TYPE_CHECKING:
     from mypy_boto3_bedrock_runtime.client import BedrockRuntimeClient # pyright: ignore[reportMissingImports]
 
+# memo: リージョンは適宜変更してください
 bedrock_runtime_client: "BedrockRuntimeClient" = boto3.client(
     service_name="bedrock-runtime",
     region_name="us-west-2",

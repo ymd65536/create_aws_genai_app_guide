@@ -21,6 +21,12 @@ source ./prompt/bin/activate
 pip install -r ./prompt/requirements.txt
 ```
 
+サンプルスクリプトを実行します。
+
+```bash
+python sample_script.py 
+```
+
 ## Amazon Bedrockに関すること
 
 
